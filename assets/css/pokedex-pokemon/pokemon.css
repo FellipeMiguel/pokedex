@@ -1,0 +1,7 @@
+.pokedex__pokemon {
+  bottom: 55%;
+  height: 18%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-63%, 20%);
+}

@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  font-family: "Oxanium", cursive;
+  min-height: 100vh;
+  text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--iCON-->
+    <link rel="icon" href="./assets/favicons/favicon-16x16.png" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-pokemon/pokemon.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex/pokedex.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-case/case.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-data/data.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-form/form.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-buttons/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main class="pokedex">
+      <!--POKÉMON IMAGE-->
+      <img src="#" alt="pokemon" class="pokedex__pokemon" />
+
+      <!--POKÉMON NAME AND NUMBER-->
+      <h1 class="pokedex__data">
+        <span class="pokedex__data--number"></span> -
+        <span class="pokedex__data--name"></span>
+      </h1>
+
+      <!--FORM-->
+      <form class="pokedex__form">
+        <input
+          type="search"
+          class="pokedex__form--input"
+          placeholder="Numero ou Nome"
+          required
+        />
+      </form>
+
+      <!--BUTTONS-->
+      <div class="pokedex__buttons">
+        <button class="pokedex__buttons--button btn-prev">Prev &lt;</button>
+        <button class="pokedex__buttons--button btn-next">Next &gt;</button>
+      </div>
+
+      <!--POKÉDEX CASE IMAGE-->
+      <img
+        src="./assets/images/pokedex.png"
+        alt="Pokédex"
+        class="pokedex__case"
+      />
+    </main>
+
+    <!--SCRIPT-->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

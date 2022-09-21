@@ -1,0 +1,13 @@
+.pokedex__data {
+  color: #aaa;
+  font-size: clamp(8px, 5vw, 25px);
+  font-weight: 600;
+  position: absolute;
+  right: 27%;
+  top: 54.5%;
+}
+
+.pokedex__data--name {
+  color: #3a444d;
+  text-transform: capitalize;
+}
