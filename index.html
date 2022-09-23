@@ -11,12 +11,12 @@
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex-pokemon/pokemon.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex/pokedex.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex-case/case.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex-data/data.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex-form/form.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex-buttons/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/pokemon.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex.css" />
+    <link rel="stylesheet" href="./assets/css/case.css" />
+    <link rel="stylesheet" href="./assets/css/data.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/buttons.css" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
 
     <title>Pokédex</title>
@@ -28,15 +28,15 @@
 
       <!--POKÉMON NAME AND NUMBER-->
       <h1 class="pokedex__data">
-        <span class="pokedex__data--number"></span> -
-        <span class="pokedex__data--name"></span>
+        <span class="pokedex__number"></span> -
+        <span class="pokedex__name"></span>
       </h1>
 
       <!--FORM-->
       <form class="pokedex__form">
         <input
           type="search"
-          class="pokedex__form--input"
+          class="pokedex__input"
           placeholder="Numero ou Nome"
           required
         />
@@ -44,8 +44,8 @@
 
       <!--BUTTONS-->
       <div class="pokedex__buttons">
-        <button class="pokedex__buttons--button btn-prev">Prev &lt;</button>
-        <button class="pokedex__buttons--button btn-next">Next &gt;</button>
+        <button class="pokedex__button pokedex__button--prev">Prev &lt;</button>
+        <button class="pokedex__button pokedex__button--next">Next &gt;</button>
       </div>
 
       <!--POKÉDEX CASE IMAGE-->

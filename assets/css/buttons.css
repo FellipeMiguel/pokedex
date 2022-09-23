@@ -8,7 +8,7 @@
   width: 65%;
 }
 
-.pokedex__buttons--button {
+.pokedex__button {
   background-color: #4444;
   border: 2px solid #000;
   border-radius: 5px;
@@ -20,7 +20,7 @@
   width: 50%;
 }
 
-.pokedex__buttons--button:active {
+.pokedex__button:active {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }

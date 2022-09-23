@@ -5,7 +5,7 @@
   width: 65%;
 }
 
-.pokedex__form--input {
+.pokedex__input {
   border: 2px solid #333;
   border-radius: 5px;
   box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;

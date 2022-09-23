@@ -1,11 +1,11 @@
-let pokemonName = document.querySelector(".pokedex__data--name");
-let pokemonNumber = document.querySelector(".pokedex__data--number");
+let pokemonName = document.querySelector(".pokedex__name");
+let pokemonNumber = document.querySelector(".pokedex__number");
 let pokemonImage = document.querySelector(".pokedex__pokemon");
 
 let form = document.querySelector(".pokedex__form");
-let input = document.querySelector(".pokedex__form--input");
-let buttonPrev = document.querySelector(".btn-prev");
-let buttonNext = document.querySelector(".btn-next");
+let input = document.querySelector(".pokedex__input");
+let buttonPrev = document.querySelector(".pokedex__button--prev");
+let buttonNext = document.querySelector(".pokedex__button--next");
 
 let searchPokemon = 1;
 
